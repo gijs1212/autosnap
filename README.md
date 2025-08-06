@@ -38,7 +38,7 @@ Download the repository
 
 Make sure snapchat_black_logo_icon_147080.ico is in the same folder
 
-'''Run main.py
+Run autosnap.py
 
 Click 🔧 Recalibrate and follow the prompts to set:
 
@@ -61,19 +61,7 @@ Watch your snaps get sent automatically!
 🧪 Tip: Test First
 You can first calibrate using dummy windows or screenshots to test behavior without sending real snaps.
 
-🖼️ Build a Standalone App (No console or taskbar icon)
-To turn this into a .exe that hides the terminal and doesn’t appear in the taskbar:
-
-Requires PyInstaller
-
-bash
-Kopiëren
-Bewerken
-pyinstaller --noconsole --windowed --icon=snapchat_black_logo_icon_147080.ico main.py
-📁 Files
-File	Description
-main.py	Main app script
-muis_config.json	Auto-saved config file
+Files required:
 snapchat_black_logo_icon_147080.ico	App window icon (Snapchat style)
 
 🧠 Note
