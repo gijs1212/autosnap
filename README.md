@@ -30,17 +30,15 @@ pyautogui
 ctypes, os, json, time
 
 Install the only external dependency:
-
-bash
-Kopiëren
-Bewerken
+```bash
 pip install pyautogui
+
 🚀 How to Use
 Download the repository
 
 Make sure snapchat_black_logo_icon_147080.ico is in the same folder
 
-Run main.py
+'''Run main.py
 
 Click 🔧 Recalibrate and follow the prompts to set:
 
